@@ -1,0 +1,8 @@
+package tech.nikant.batchcsvtodb;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class BatchConfig {
+
+}

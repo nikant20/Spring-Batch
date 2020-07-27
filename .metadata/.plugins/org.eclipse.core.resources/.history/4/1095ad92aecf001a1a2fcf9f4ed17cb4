@@ -1,0 +1,24 @@
+package tech.nikant.batchcsvtodb;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.batch.core.Job;
+import org.springframework.batch.core.JobParametersBuilder;
+import org.springframework.batch.core.launch.JobLauncher;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class BatchcsvtodbApplicationTests {
+
+	@Autowired
+	JobLauncher launcher;
+	
+	@Autowired
+	Job job;
+	
+	@Test
+	void test_batch() {
+		launcher.run(job, new JobParametersBuilder().addLong("time", System.currentTimeMillis()).toJobParameters());
+	}
+
+}

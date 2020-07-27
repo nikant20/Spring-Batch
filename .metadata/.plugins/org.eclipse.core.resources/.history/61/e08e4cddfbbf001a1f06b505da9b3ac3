@@ -1,0 +1,5 @@
+package tech.nikant.boot.batch;
+
+public class BatchConfig {
+
+}

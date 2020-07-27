@@ -1,0 +1,5 @@
+package tech.nikant.batchcsvtodb;
+
+public class BatchConfig {
+
+}

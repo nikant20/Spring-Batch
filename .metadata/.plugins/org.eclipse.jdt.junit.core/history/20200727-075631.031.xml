@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BatchcsvtodbApplicationTests" project="batchcsvtodb" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="tech.nikant.batchcsvtodb.BatchcsvtodbApplicationTests" time="1.516" displayname="BatchcsvtodbApplicationTests" uniqueid="[engine:junit-jupiter]/[class:tech.nikant.batchcsvtodb.BatchcsvtodbApplicationTests]">
+    <testcase name="test_batch" classname="tech.nikant.batchcsvtodb.BatchcsvtodbApplicationTests" time="1.516" displayname="test_batch()" uniqueid="[engine:junit-jupiter]/[class:tech.nikant.batchcsvtodb.BatchcsvtodbApplicationTests]/[method:test_batch()]"/>
+  </testsuite>
+</testrun>
